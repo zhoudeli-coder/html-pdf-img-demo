@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mongodb-demo
+  profiles:
+    active: dev
+server:
+  port: 9002
+
+snowflake:
+  dataCenterId: 1
+  machineId: 1
